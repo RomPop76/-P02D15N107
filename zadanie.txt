@@ -1,10 +1,10 @@
 Zadanie: Ostyluj menu którego struktura znajduje się w index.html
 
- 1.(DONE|) Importuj plik (nav1.sass) w style.sass i kompiluj zawartość style.sass do style.css w osobnym katalogu. Nie kompiluj samego nav1.sass (wymaga dodania jednego znaku na początku pliku, pamiętasz jakiego?) 
+ 1.(DONE) Importuj plik (nav1.sass) w style.sass i kompiluj zawartość style.sass do style.css w osobnym katalogu. Nie kompiluj samego nav1.sass (wymaga dodania jednego znaku na początku pliku, pamiętasz jakiego?) 
 
- 1b. stwórz też plik variables.sass i importuj ten plik w style.sass. Stwórz w nim jedną zmienną której póżniej użyjesz w pliku nav1.sass. Zmienna powinna przechowywać kolor fonta określony na biały (nazwa zmiennej dowolna). Zmiennej musisz uzyć póżniej w pliku nav1.sass. Ps. pamiętaj że plik variables będzie się kompilował. Zmień jego nazwę tak by się nie kompilował.
+ 1b. (DONE) Stwórz też plik variables.sass i importuj ten plik w style.sass. Stwórz w nim jedną zmienną której póżniej użyjesz w pliku nav1.sass. Zmienna powinna przechowywać kolor fonta określony na biały (nazwa zmiennej dowolna). Zmiennej musisz uzyć póżniej w pliku nav1.sass. Ps. pamiętaj że plik variables będzie się kompilował. Zmień jego nazwę tak by się nie kompilował.
 
- 1c. Stwórz osobny plik (mixins.sass) a w nim domieszkę, importuj ją potem w style.sass i użyj jej w nav1.sass  (dla elementu ul). Domieszka ma mieć zawartość
+ 1c. (DONE) Stwórz osobny plik (mixins.sass) a w nim domieszkę, importuj ją potem w style.sass i użyj jej w nav1.sass  (dla elementu ul). Domieszka ma mieć zawartość
    display: flex;
    flex-direction: $direction
    justify-content: $justify
